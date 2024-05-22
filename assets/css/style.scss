@@ -3,6 +3,18 @@
 
 @import "{{ site.theme }}";
 
+/* some menu styling */
+ul.menu {
+  padding-left: 0;
+}
+ul.menu li {
+  list-style-type: none;
+}
+ul.menu li a {
+  font-size: 200%;
+  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
+}
+
 /* mostly copied from https://esm.sh/emfed@1.4.2/toots.css */
 .toots {
   /* changed width to 100% */
