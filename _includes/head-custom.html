@@ -4,4 +4,8 @@
 
 {% include head-custom-google-analytics.html %}
 
+{% for custom-head-code in page.custom-head-code %}
+    {{ custom-head-code }}
+{% endfor %}
+
 <!-- link rel="shortcut icon" type="image/x-icon" href="{{ '/favicon.ico' | relative_url }}" -->
